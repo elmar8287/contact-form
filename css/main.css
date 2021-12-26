@@ -350,110 +350,109 @@ li {
 form {
     color: #b3bac5;
     padding: 0;
-  }
-  
-  form:invalid > #submit {
-    background-color: white;
-    border: 1px solid #c1c7d0;
-    color: #5e6c84;
-  }
-  
-  ::-webkit-input-placeholder {
-    /* Edge */
-    color: #b3bac5;
-  }
-  
-  :-ms-input-placeholder {
-    /* Internet Explorer 10-11 */
-    color: #b3bac5;
-  }
-  
-  ::placeholder {
-    color: #b3bac5;
-  }
-  
-  .form-elements {
-    display: flex;
-    flex-direction: column;
-    padding: 0;
-    margin: 0;
-  }
-  
-  .form-elements li {
-    display: flex;
-    flex-direction: column;
-  }
-  
-  .input {
-    height: 48px;
-    border-radius: 8px;
-    border: 1px solid #cfd8dc;
-    font-size: 17px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 20px;
-    text-align: left;
-    margin-bottom: 20px;
-    padding: 15px 16px;
-    box-sizing: border-box;
-  }
-  
-  .input-message {
-    color: #172b4d;
-    height: 170px;
-    border-radius: 8px;
-    border: 1px solid #cfd8dc;
-    padding: 15px 38px 15px 16px;
-    font-family: inherit;
-    font-size: 15px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 24px;
-    text-align: left;
-  }
-  
-  .form-buttons {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
-  }
-  
-  .submit-btn {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    padding: 12px;
-    background: #ff6b00;
-    font-family: "Inter", sans-serif;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 17px;
-    line-height: 24px;
-    letter-spacing: 0.03em;
-    color: #fff;
-    align-self: start;
-    transition: 350ms;
-    border: none;
-  }
-  
-  .submit-btn:hover {
-    box-shadow: none;
-    color: #396df2;
-    background-color: #fff;
-    cursor: pointer;
-  }
-  
-  .line-shape {
-    width: 134px;
-    height: 5px;
-    margin-bottom: 8px;
-    border-radius: 10px;
-    color: #0d151e;
-  }
-  
-  .error-message {
-    margin: 10px;
-    color: rgb(248, 200, 200);
-  }
+}
+
+form:invalid > #submit {
+  background-color: white;
+  border: 1px solid #c1c7d0;
+  color: #5e6c84;
+}
+
+::-webkit-input-placeholder {
+/* Edge */
+  color: #b3bac5;
+}
+
+:-ms-input-placeholder {
+/* Internet Explorer 10-11 */
+  color: #b3bac5;
+}
+
+::placeholder {
+  color: #b3bac5;
+}
+
+.form-elements {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  margin: 0;
+}
+
+.form-elements li {
+  display: flex;
+  flex-direction: column;
+}
+
+.input {
+  height: 48px;
+  border-radius: 8px;
+  border: 1px solid #cfd8dc;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: left;
+  margin-bottom: 20px;
+  padding: 15px 16px;
+  box-sizing: border-box;
+}
+
+.input-message {
+  color: #172b4d;
+  height: 170px;
+  border-radius: 8px;
+  border: 1px solid #cfd8dc;
+  padding: 15px 38px 15px 16px;
+  font-family: inherit;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+}
+
+.form-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.submit-btn {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 12px;
+  background: #ff6b00;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #fff;
+  align-self: start;
+  transition: 350ms;
+  border: none;
+}
+
+.submit-btn:hover {
+  box-shadow: none;
+  color: #396df2;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.line-shape {
+  width: 134px;
+  height: 5px;
+  margin-bottom: 8px;
+  border-radius: 10px;
+  color: #0d151e;
+}
+
+.error-message {
+  margin: 10px;
+  color: rgb(248, 200, 200);
+}
