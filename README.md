@@ -9,6 +9,8 @@
 ## Live version
 You can visit live version via [link](https://elmar8287.github.io/contact-form/)
 
+![Screen shot](./media/png/contact-form.png)
+
 ## Built With
 
 - HTML/CSS/JS
